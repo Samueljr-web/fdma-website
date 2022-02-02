@@ -29,7 +29,7 @@ function Navbar() {
           </Link>
           <Link href="/resultchecker">
             <a>
-              <button className="py-2 lg:px-3 px-2 bg-red-500 rounded-full hover:scale-105 transition duration-150 ease-in-out">
+              <button className="hidden lg:block py-2 lg:px-3 px-2 bg-red-500 rounded-full hover:scale-105 transition duration-150 ease-in-out">
                 Result Checker
               </button>
             </a>
@@ -59,6 +59,13 @@ function Navbar() {
             </Link>
             <Link href="/">
               <a className="p-5 w-full text-white uppercase">Contact Us</a>
+            </Link>
+            <Link href="/resultchecker">
+              <a>
+                <button className="lg:hidden block py-2 mb-5 ml-3 lg:px-3 px-2 text-white bg-red-500 rounded-md hover:scale-105 transition duration-150 ease-in-out">
+                  Result Checker
+                </button>
+              </a>
             </Link>
           </div>
         </div>

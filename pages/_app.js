@@ -11,7 +11,7 @@ function MyApp({ Component, pageProps }) {
           <link rel="icon" href="/assets/logo.svg" />
           <meta
             name="title"
-            content="GenZtechies - Connecting Teen Techies Across Nigeria"
+            content="FDMA - Favoured Destinies Montessory Academy"
           />
           <meta
             name="description"
@@ -20,7 +20,7 @@ function MyApp({ Component, pageProps }) {
 
           {/* <!-- Open Graph / Facebook --> */}
           <meta property="og:type" content="website" />
-          <meta property="og:url" content="https://genztechies.com/" />
+          <meta property="og:url" content="https://favoureddestinies.org.ng/" />
           <meta
             property="og:title"
             content="FDMA - Favoured destinies montessory academy"
@@ -31,23 +31,26 @@ function MyApp({ Component, pageProps }) {
           />
           <meta
             property="og:image"
-            content="https://genztechies.com/assets/site-preview.png"
+            content="https://favoreddestinies.org.ng/assets/logo.svg"
           />
 
           {/* <!-- Twitter --> */}
           <meta property="twitter:card" content="summary_large_image" />
-          <meta property="twitter:url" content="https://genztechies.com/" />
+          <meta
+            property="twitter:url"
+            content="https://favoureddestinies.org.ng/"
+          />
           <meta
             property="twitter:title"
-            content="GenZtechies - Connecting Teen Techies Across Nigeria"
+            content="FDMA - Favoured Destinies Montessory Academy"
           />
           <meta
             property="twitter:description"
-            content="Connecting Teen Techies Across Nigeria"
+            content="Favoured Destinies Montessory Academy"
           />
           <meta
             property="twitter:image"
-            content="https://genztechies.com/assets/site-preview.png"
+            content="https://favoureddestinies.org.ng/assets/logo.svg"
           />
         </Head>
         <Component {...pageProps} />
